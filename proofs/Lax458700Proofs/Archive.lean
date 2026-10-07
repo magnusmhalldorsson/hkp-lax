@@ -16,8 +16,10 @@ theorem representation_public [DecidableEq V] {G : SimpleGraph V}
     Lax458700.Words.Represents G representation.word := by
   refine ⟨representation.covers, ?_⟩
   intro x y
-  rw [← representation.underlying, alternationGraph_adj]
-  rfl
+  change G.Adj x y ↔ LettersAlternate representation.word x y
+  exact (Iff.of_eq (congrArg (fun graph : SimpleGraph V ↦ graph.Adj x y)
+    representation.underlying).symm).trans
+      (alternationGraph_adj representation.word x y)
 
 def representation_from_public [DecidableEq V] {G : SimpleGraph V}
     (word : List V) (h : Lax458700.Words.Represents G word) :
