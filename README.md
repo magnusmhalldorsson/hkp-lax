@@ -29,4 +29,6 @@ Local validation passed on 7 October 2026, including compilation, independent ke
 
 Lax reports 66 nonblocking unused-helper warnings. The full source-module slice is intentionally retained for comparison with the original development; the warnings include automatically generated structure lemmas and results about comparability and permutation graphs that are not public claims of this export. No `sorry`, `native_decide`, or proof-package axioms occur.
 
-The manifest's author list is intentionally empty pending a human decision about formalization credit. No public submission or permanent registration is authorized by preparation of this package.
+Formalization author: Magnús M. Halldórsson, Reykjavik University. The manifest records the author's name; the abstract carries the affiliation because Lax has no separate affiliation field.
+
+No public submission or permanent registration is authorized by preparation of this package.
