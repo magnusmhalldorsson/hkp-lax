@@ -4,6 +4,7 @@ import Lax458700Proofs.HKPBound
 /-!
 Bridges from the original constructive development to the public Lax definitions.
 The copied proof modules have been renamed, not assumed as axioms.
+HKP abbreviates Halldórsson–Kitaev–Pyatkin.
 -/
 
 namespace Lax458700Proofs

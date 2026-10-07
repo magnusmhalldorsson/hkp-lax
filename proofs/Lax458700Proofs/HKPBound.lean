@@ -4,7 +4,8 @@ import Mathlib.Combinatorics.SimpleGraph.Clique
 /-!
 # The corrected HKP representation-number bound
 
-The preliminary HKP proof used a false vertex-covering lemma.  The corrected
+HKP abbreviates Halldórsson–Kitaev–Pyatkin.
+The preliminary HKP proof used a false vertex-covering lemma. The corrected
 construction partitions the vertices relative to a fixed vertex `v` into five
 classes and uses the two-uniform word
 

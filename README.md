@@ -1,6 +1,6 @@
-# HKP formalization for Lax
+# Word representability formalization for Lax
 
-This separate package contains the finite HKP characterization and the corrected clique bound. A noncomplete word-representable graph with $n$ vertices and clique number $\omega$ has a $2(n-\omega)$-uniform representation.
+This separate package formalizes the characterization of word-representable graphs by Halldórsson, Kitaev and Pyatkin (HKP), together with their corrected clique bound. A noncomplete word-representable graph with $n$ vertices and clique number $\omega$ has a $2(n-\omega)$-uniform representation.
 
 ## Public statements
 
@@ -15,9 +15,9 @@ The two foundational concepts define words and semi-transitive orientations. The
 
 ## Provenance and license
 
-The ten helper modules in `proofs/Lax458700Proofs` are the transitive dependency slice of `FiniteConverse.lean` and `HKPBound.lean` from [Word-representable-graphs](https://github.com/magnusmhalldorsson/Word-representable-graphs/tree/8089abbf6bbcc85911a0cdc184c63d8c28bcf3d3), commit `8089abbf6bbcc85911a0cdc184c63d8c28bcf3d3`. Their package imports and namespace have been changed to `Lax458700Proofs`. The archive bridge proves that the public definitions express the same properties as the original structures.
+The ten helper modules in `proofs/Lax458700Proofs` are the transitive dependency slice of `FiniteConverse.lean` and `HKPBound.lean` from [Word-representable-graphs](https://github.com/magnusmhalldorsson/Word-representable-graphs/tree/8089abbf6bbcc85911a0cdc184c63d8c28bcf3d3), a private source repository, commit `8089abbf6bbcc85911a0cdc184c63d8c28bcf3d3`. Their package imports and namespace have been changed to `Lax458700Proofs`, and introductory comments expand the abbreviation HKP. Their mathematical declarations and proofs are unchanged. The archive bridge proves that the public definitions express the same properties as the original structures.
 
-The original development uses Lean 4.34.1. This export targets Lax's Lean 4.33.0 environment with mathlib commit `db584cd6d46c92f209a44c0f1c829460d327499d`. All ten copied modules compile without changes beyond the namespace and import renaming.
+The original development uses Lean 4.34.1. This export targets Lax's Lean 4.33.0 environment with mathlib commit `db584cd6d46c92f209a44c0f1c829460d327499d`. All ten copied modules compile without mathematical changes.
 
 Apache License 2.0 applies to this exported package only, as authorized by Magnús Már Halldórsson. The original repository's license, source files, and toolchain have not been changed. The mathematical source is Halldórsson, Kitaev and Pyatkin, [Semi-Transitive Orientations and Word-Representable Graphs](https://arxiv.org/abs/1501.07108), Discrete Applied Mathematics 201 (2016), 164–171.
 
@@ -31,4 +31,4 @@ Lax reports 66 nonblocking unused-helper warnings. The full source-module slice 
 
 Formalization author: Magnús M. Halldórsson, Reykjavik University. The manifest records the author's name; the abstract carries the affiliation because Lax has no separate affiliation field.
 
-No public submission or permanent registration is authorized by preparation of this package.
+A Lax draft may be updated. Permanent registration is a separate step.

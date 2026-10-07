@@ -3,13 +3,14 @@ import Mathlib.Combinatorics.SimpleGraph.Clique
 
 /-!
 ---
-title: The corrected HKP clique bound
+title: The corrected Halldórsson–Kitaev–Pyatkin clique bound
 type: theorem
 ---
 Every finite noncomplete word-representable graph with $n$ vertices and clique
 number $\omega$ has a $2(n-\omega)$-uniform representing word, hence representation
 number at most $2(n-\omega)$. The proof uses the corrected two-occurrence
-construction and concatenates one block for each vertex outside a maximum clique.
+construction of Halldórsson, Kitaev and Pyatkin (HKP) and concatenates one block
+for each vertex outside a maximum clique.
 Complete graphs are excluded because the displayed multiplicity would be zero.
 -/
 

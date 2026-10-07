@@ -3,11 +3,12 @@ import Lax458700.OrientationToWord
 
 /-!
 ---
-title: The HKP characterization of finite word-representable graphs
+title: The Halldórsson–Kitaev–Pyatkin characterization of finite word-representable graphs
 type: theorem
 ---
 A finite graph is word-representable if and only if it admits a semi-transitive
-orientation. Here word-representability permits nonuniform words.
+orientation. This is the characterization of Halldórsson, Kitaev and Pyatkin
+(HKP). Here word-representability permits nonuniform words.
 -/
 
 namespace Lax458700.Characterization

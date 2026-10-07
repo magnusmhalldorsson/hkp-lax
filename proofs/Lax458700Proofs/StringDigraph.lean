@@ -10,7 +10,7 @@ import Mathlib.Order.Interval.Finset.Fin
 /-!
 # String digraphs and topological listings
 
-This module begins the finite converse construction of Halldórsson--Kitaev--Pyatkin.
+This module begins the finite converse construction of Halldórsson–Kitaev–Pyatkin (HKP).
 The `t`-string digraph contains `t` indexed copies of every vertex. Within one layer it
 uses the original orientation; between increasing layers it uses the reverse orientation.
 Thus every oriented edge `left → right` forces the chain
